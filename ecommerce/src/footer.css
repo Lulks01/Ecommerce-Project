@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Footer{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.281);
+}
+.containerFooter{
+    padding: 5px;
+    background-color: #1b381a;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 0.6em;
+}
+#politics{
+    display: flex;
+    gap: 5px;
+    margin: 0px 25px 0px 25px;
+    justify-content: center;
+}
+
+#politicsbuttons{
+    font-size: 0.5em;
+    color: white;
+    text-decoration: none;
+    background-color: #080f082f;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+#politicsbuttons:hover{
+    background-color: #080f0871;
+}
+
+.payments{
+    display: block;
+    margin: 15px;
+    background-color: #080f082f;
+    border-radius: 7px;
+    padding: 10px;
+    align-items: center;
+}
+.paymentMethods{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+.payments h2 {
+    font-size: 0.8em;
+}
+
+.devs {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(59, 183, 255);
+}
+
+#tags{
+    text-decoration: none;
+    color: white;
+}

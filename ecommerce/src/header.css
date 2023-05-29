@@ -1,0 +1,52 @@
+
+.Main{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 120px;
+    background-color: #1b381a;
+}
+
+.menuContainer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.homeContainer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#home{
+    width: 50px;
+    height: 50px;
+}
+
+.searchContainer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#search{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.HeaderButton{
+    background-color: transparent;
+    border: 0px;
+}
+
+.HeaderButton:hover{
+    cursor: pointer;
+}
